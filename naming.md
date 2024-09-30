@@ -17,7 +17,7 @@
 
 ### Key value pairs
 - Prefer `[item]By[key]`. 
-- Ex. `usersByUuid` 
+- Ex. `userByUuid` would be a key value pair of `{ [uuid]: User }` 
 
 ### Shortened names
 - Generally avoid shortening names unless there's a big benefit. Shortened names are more difficult to search for.
