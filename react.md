@@ -55,7 +55,7 @@ export const Component = React.memo(function _Component({ className, isDisabled 
     return <span />;
   }
 
-  // Generally prefer avoiding boolean prop shorthand for consistency and explicitness of thevalue.
+  // Generally prefer avoiding boolean prop shorthand for consistency and explicitness of the value.
   return <Button className={classNames(className, styles.root)} isDisabled={true} />;
 });
 ```
