@@ -11,6 +11,10 @@
 - Prefer pluralizing any items to avoid confusion with individual items.
 - Ex. `items` array and `item` entry
 
+### Sets
+- Prefer appending `Set` at the end. There's an argument for just pluralizing this like an array.
+- Ex. `itemSet`
+
 ### Key value pairs
 - Prefer `[item]By[key]`. 
 - Ex. `usersByUuid` 
