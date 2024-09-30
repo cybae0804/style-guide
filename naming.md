@@ -19,3 +19,10 @@
 - Generally avoid shortening names unless there's a big benefit. Shortened names are more difficult to search for.
 - Ex. `error` over `e`, or `event` over `evt`.
 
+### Constants 
+- Whenever possible, abstract static constant variables at the root level of the file to avoid clutter.
+- Prefer explicitly typing the const variables, especially reference variables, to get the benefit of Typescript autocomplete.
+  - Ex. `const ITEMS: ReadonlyArray<string> = ['a', 'b', 'c'];`
+- Prefer attaching the unit in the variable name whenever there's a room for confusion
+- Prefer using underscore to make numbers more readable.
+  - Ex. `const TIMEOUT_MS = 1_000`;
