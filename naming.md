@@ -1,5 +1,5 @@
 ### Functions
-- Prefer names that start with a verb. Functions are natuarlly "doing" something, and what it's "doing" is the important part.
+- Prefer names that start with a verb. Functions are natuarlly "doing" something, and what it's "doing" is the important part, followed by the subject.
 - Ex. `getValueFromData`, `createValue`, `deleteItem`
 
 ### Booleans
