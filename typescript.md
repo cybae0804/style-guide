@@ -31,3 +31,7 @@ Reference: https://github.com/microsoft/TypeScript/wiki/Performance
 
     type Color = ValuesUnion<typeof Color>;
   ```
+
+### Explicit Args/Return typing on util functions
+- Explicitly type all args and return types on util functions, and avoid relying on inference.
+- Util functions are special in the sense that they're a smaller piece of API that may be used across multiple areas. Smallest change can potentially create bugs, and explicit typing makes sure that the contract is established and kept.
